@@ -30,3 +30,9 @@ captures/
 # Misc
 .DS_Store
 *.log
+
+# Local secrets: keep API keys and credentials out of the repo
+.secrets/
+
+# Specific sensitive files
+src/main/assets/groq_api_key.txt
