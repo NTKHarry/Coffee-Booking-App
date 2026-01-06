@@ -1,0 +1,32 @@
+# Gradle / Android build outputs
+/build/
+**/build/
+
+# Gradle cache
+/.gradle
+
+# Local configuration file (sdk path, secrets) - do NOT commit
+local.properties
+
+# Android Studio project files
+/.idea/
+*.iml
+
+# Keystore files (often contain signing keys)
+*.jks
+*.keystore
+
+# Google services file (API keys) - commit only if you know what you're doing
+google-services.json
+
+# NDK, CMake, and external native build outputs
+.cxx/
+.externalNativeBuild/
+obj/
+
+# Captures (screenshots, recordings)
+captures/
+
+# Misc
+.DS_Store
+*.log
