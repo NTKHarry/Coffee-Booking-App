@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Use an existing coffee drawable (cappuccino.png) centered and inset so it fits the launcher mask -->
+    <item>
+        <inset
+            android:insetLeft="12dp"
+            android:insetTop="12dp"
+            android:insetRight="12dp"
+            android:insetBottom="12dp">
+            <bitmap
+                android:src="@drawable/cappuccino"
+                android:gravity="center"
+                android:antialias="true" />
+        </inset>
+    </item>
+</layer-list>
